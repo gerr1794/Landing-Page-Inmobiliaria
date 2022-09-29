@@ -1,0 +1,71 @@
+body{
+    overflow-x: hidden;
+}
+p{
+    width: 75%;
+}
+h1{
+    padding-top: 50px;
+}
+.carrusel{
+    height: 700px;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    filter: invert(108%);
+  }
+.titulo-nosotros{
+    padding-top: 15px;
+}
+#contacto, #departamentos, #nosotros, #casas{
+    padding-top: 50px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+}
+.contenido{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(250, 254, 255);
+}
+.section{
+    width: 85%;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.parallax{
+    background: fixed no-repeat 50% 50%;
+    background-size: cover;
+}
+#seccion1{
+    background-image: url(../img/imgParallax.png);
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+h1{
+    font-size: 4rem;
+    text-transform: uppercase;
+    color: black;
+}
+
+@media screen and (max-width: 600px) {
+    #contacto{
+        padding-top: 50px
+    }
+    .banner-nosotros{
+        width: 370px;
+    }
+    .section{
+        width: 100%;
+    }
+    .titulo-principal{
+        margin-left: 30px;
+    }
+  }
