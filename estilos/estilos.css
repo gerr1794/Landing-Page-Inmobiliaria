@@ -7,19 +7,18 @@ p{
 h1{
     padding-top: 50px;
 }
-.carrusel{
-    height: 700px;
-}
 .carousel-control-prev-icon, .carousel-control-next-icon {
     filter: invert(108%);
   }
 .titulo-nosotros{
     padding-top: 15px;
 }
-#contacto, #departamentos, #nosotros, #casas{
+#contacto, #departamentos, #nosotros, #casas, #otros{
     padding-top: 50px;
 }
-
+.parrafo-nosotros{
+    background-color: rgb(250, 254, 255);
+}
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;600&display=swap');
 *{
     margin: 0;
@@ -67,5 +66,8 @@ h1{
     }
     .titulo-principal{
         margin-left: 30px;
+    }
+    body{
+        overflow-x: hidden;
     }
   }
